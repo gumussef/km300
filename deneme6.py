@@ -13,7 +13,7 @@ import tkinter as tk
 import tkinter.ttk as ttk
 from tkinter.constants import *
 import os.path
-export DISPLAY=:0.0
+
 _location = os.path.dirname(__file__)
 
 import deneme6_support
