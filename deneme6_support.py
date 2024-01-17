@@ -5,6 +5,7 @@
 #  in conjunction with Tcl version 8.6
 #    Jan 15, 2024 06:39:56 PM +03  platform: Windows NT
 
+
 import sys
 import tkinter
 tkinter.use('Agg')
@@ -14,6 +15,7 @@ from tkinter.constants import *
 
 import deneme6
 
+$ export DISPLAY=:0.0
 _debug = True # False to eliminate debug printing from callback functions.
 
 def main(*args):
