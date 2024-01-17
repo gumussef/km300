@@ -6,6 +6,8 @@
 #    Jan 15, 2024 06:39:56 PM +03  platform: Windows NT
 
 import sys
+import tkinter
+tkinter.use('Agg')
 import tkinter as tk
 import tkinter.ttk as ttk
 from tkinter.constants import *
