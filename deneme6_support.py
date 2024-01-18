@@ -15,7 +15,6 @@ from tkinter.constants import *
 
 import deneme6
 
-DISPLAY=:0.0
 _debug = True # False to eliminate debug printing from callback functions.
 
 def main(*args):
