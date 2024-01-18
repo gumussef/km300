@@ -7,7 +7,8 @@
 
 import sys
 import tkinter
-
+import matplotlib
+matplotlib.use('Agg')
 import tkinter as tk
 import tkinter.ttk as ttk
 from tkinter.constants import *
