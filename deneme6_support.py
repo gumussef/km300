@@ -7,8 +7,6 @@
 
 
 import sys
-import matplotlib
-matplotlib.use('Agg')
 import tkinter
 
 import tkinter as tk
@@ -17,6 +15,10 @@ from tkinter.constants import *
 
 import deneme6
 
+if os.environ.get('DISPLAY','') == '':
+    print('no display found. Using :0.0')
+    os.environ.__setitem__('DISPLAY', ':0.0')
+    
 _debug = True # False to eliminate debug printing from callback functions.
 
 def main(*args):
