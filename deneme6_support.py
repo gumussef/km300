@@ -14,6 +14,7 @@ import tkinter.ttk as ttk
 from tkinter.constants import *
 
 import deneme6
+import os
 
 if os.environ.get('DISPLAY','') == '':
     print('no display found. Using :0.0')
