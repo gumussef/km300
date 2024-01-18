@@ -8,7 +8,7 @@
 
 import sys
 import tkinter
-tkinter.use('Agg')
+
 import tkinter as tk
 import tkinter.ttk as ttk
 from tkinter.constants import *
