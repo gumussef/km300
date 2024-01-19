@@ -6,8 +6,6 @@
 #    Jan 15, 2024 06:40:02 PM +03  platform: Windows NT
 
 import sys
-import tkinter
-import matplotlib
 import tkinter as tk
 import tkinter.ttk as ttk
 from tkinter.constants import *
